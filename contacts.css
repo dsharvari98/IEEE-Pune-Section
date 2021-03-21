@@ -1,0 +1,267 @@
+        
+        @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+        body {
+            font-family: "Inter", sans-serif;
+            background: linear-gradient(20deg, #034863, #7ebee2, #072192);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            height: 100%;
+            width: 100%;
+            overflow-x: hidden;
+        }
+        
+        .contactheading{
+        font-size: 67px;
+        color: white;
+        font-family: 'Playfair Display', serif;
+        text-align: center;
+        text-shadow: 0px 3px 2px #ccc, 
+                       0px 8px 10px rgba(0,0,0,0.15), 
+                       0px 12px 2px rgba(0,0,0,0.7);
+        
+        letter-spacing: 5px;
+        /* margin-top: 5%; */
+        }
+        
+        
+        
+        * {
+          margin: 0;
+        }
+        
+        
+        
+        .main {
+          width: 100vw;
+          margin: 0 auto;
+          display: flex;
+          flex-direction: column; 
+          /* background-color: rgba(101, 120, 140, 0.7); */
+          font-family: Graphik-Regular, Helvetica, Serif;
+          /* align-items: flex-end; */
+        }
+        
+        
+        
+        
+        .survey-container {
+          display: flex;
+          justify-content: center;
+        }
+        
+        #survey-form {
+          width: 900px;
+          display: flex;
+          flex-direction: column;
+          align-items: space-around;
+          padding: 50px;
+          border-radius: 50px;
+          background-color: rgba(11, 29, 81, 0.5);
+          color: white;
+          font-size: 25px;
+          margin-bottom: 60px;
+          position: relative;
+         top: -250px;
+         left:0px;
+        }
+        
+        
+        #name, 
+        #email,  
+        #phone {
+          color: black;
+          width: 95%;
+          padding: 10px;
+          font-size: 20px;
+          border-radius: 5px;
+          margin-top: 10px;
+        }
+        
+        
+        
+        #textarea {
+          width: 95%;
+          max-width: 95%;
+          height: 200px;
+          display: flex;
+          align-self: center;
+          padding: 5px;
+          color: black;
+          border-radius: 4px;
+          font-family: Graphik-Regular, Helvetica, Serif;
+          font-size: 20px;
+        }
+        
+        .button-container {
+          margin: auto;
+        }
+        
+        
+        #submit {
+          margin-left: auto;
+          margin-right: auto;
+          background-color: #bd6f26;
+          padding: 10px;
+          width: 300px;
+          border-radius: 10px;
+          border: 1px solid white;
+          font-size: 20px;
+          font-weight: 700;
+          color: black;
+          font-family: Raleway, Helvetica, Serif;
+        }
+        
+        @media (max-width: 900px) {
+          #survey-form {
+          width: 700px;
+          font-size: 20px;
+          }
+        }
+        
+        @media (max-width: 700px) {
+          #survey-form {
+            width: 95vw;
+          }
+          
+          
+        }
+        
+        @media (max-width: 500px) {
+          #survey-form {
+            width: 95vw;
+          }
+         
+        }
+        
+        
+        .fex
+        {
+          /* display: flex; */
+          
+        }
+        
+        
+        .mapo{
+          /* margin-left: 315px;
+          margin-top: -230px; */
+          align-content: center;
+          /* left: 20%; */
+          border: 5px solid black;
+          /* display: block;
+          position: relative; */
+          
+        }
+    
+        
+        .containers{
+          height: 400px;
+          width: 350px;
+          /* position: absolute; */
+          margin: auto;
+          left: 0;
+          right: 0;
+          top:0;
+          bottom:0;
+          margin-left: 300px;
+          padding-bottom: 80px;
+        }
+        .envelope{
+          background-color: #73b5eb;
+          height: 150px;
+          width: 270px;
+          /* position: relative; */
+          left:0;
+          top:0;
+        }
+        .paper{
+          background-color: white;
+          height: 150px;
+          width: 250px;
+          position: relative;
+          left: 10px; 
+        }
+        .inner1{
+          width: 0;
+          height: 0;
+          border-bottom: 150px solid #df9957;
+          border-right: 270px solid transparent;
+          position: relative;
+          bottom:150px;
+        }
+        .inner2{
+          width: 0;
+          height: 0;
+          border-bottom: 150px solid #bd6f26;
+          border-left: 270px solid transparent;
+        }
+        .covers{
+          width: 0;
+          height: 0;
+          border-top:75px solid #b84300;
+          border-right: 135px solid transparent;
+          border-left:135px solid transparent;
+          position: relative;
+          bottom:300px;
+          transform-origin: top;
+        }
+        .envelope:hover .covers{
+          transform: rotateX(180deg);
+          z-index: -1;
+        }
+        .envelope:hover .paper{
+          transform: translateY(-50px)
+        }
+        
+        header {
+          text-align: center;
+          /* background-color: gray; */
+          padding: 30px;
+          margin: 80px;
+          /* margin-bottom: 50px; */
+          margin-right:220px;
+          display: flex;
+          position: relative;
+        }
+        
+        .leftt{
+          float: left;
+          margin-left:220px;
+        
+        }
+        
+        .rightt{
+          float: right;
+        
+          margin-right:60px; 
+          /* padding-right: 50%; */
+        }
+        
+        
+        /* .fex{
+            top: -280px;
+        } */
+
+
+
+
+        div.cards {
+            margin: 80px auto;
+            max-width: 960px;
+            text-align: center;
+            margin-top: -7%;
+          }
+          
+          div.card {
+            display: inline-block;
+            position: relative;
+            width: 875px;
+            
+          }
+
+          /* div.card {
+            display: inline-block;
+            position: relative;
+            width: 50px;
+          } */
+
+          
