@@ -65,7 +65,12 @@
          left:0px;
         }
         
-        
+        .contus
+        {
+          margin-bottom: 273px ;
+          font-family: 'Playfair Display', serif;
+          }
+
         #name, 
         #email,  
         #phone {
@@ -134,11 +139,11 @@
         }
         
         
-        .fex
+        /* .fex
         {
-          /* display: flex; */
+          display: flex;
           
-        }
+        } */
         
         
         .mapo{
@@ -217,7 +222,7 @@
           /* background-color: gray; */
           padding: 30px;
           margin: 80px;
-          /* margin-bottom: 50px; */
+          margin-bottom: -250px;
           margin-right:220px;
           display: flex;
           position: relative;
@@ -248,7 +253,8 @@
             margin: 80px auto;
             max-width: 960px;
             text-align: center;
-            margin-top: -7%;
+            /* margin-top: -7%; */
+            margin-top: -200px;
           }
           
           div.card {
